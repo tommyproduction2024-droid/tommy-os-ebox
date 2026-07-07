@@ -1,5 +1,5 @@
 Tommy OS for EBOX (Vortex86DX3)
-Tommy OSは、EBOX3350DX3 (Vortex86DX3) 向けにフルスクラッチで構築された超軽量・リアルタイム志向のカスタムLinux OSです。
+Tommy OSは、EBOX3350DX3 (Vortex86DX3) 向けに構築された超軽量・リアルタイム志向のカスタムLinux OSです。
 Vortex86特有のハードウェアの癖（タイマーのバグ、USBのハンドオフパニック、ストレージドライバの欠如など）を完全に回避するため、「外部Initrdを用いたRAMブート構成」を採用しています。これにより、ストレージへの依存をなくし、高速かつ安定した起動を実現しています。
 動作環境・構成
 Target Hardware: EBOX3350DX3 (Vortex86DX3 SoC)
