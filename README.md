@@ -43,7 +43,6 @@ sudo syslinux --install /dev/mmcblk0p1
 # MBRにマスターブートレコードを書き込む
 sudo dd if=/usr/lib/syslinux/mbr/mbr.bin of=/dev/mmcblk0 bs=440 count=1
 
-
 4. イメージと設定ファイルの配置
 MicroSDをマウントし、リポジトリにある3つの必須ファイルをコピーします。
 bzImage (Linuxカーネル)
@@ -56,7 +55,6 @@ sudo mount /dev/mmcblk0p1 /mnt/ebox_sd
 sudo cp bzImage /mnt/ebox_sd/
 sudo cp rootfs.cpio.gz /mnt/ebox_sd/
 sudo cp syslinux.cfg /mnt/ebox_sd/
-
 
 【参考: syslinux.cfg の内容（Vortex86 究極の回避呪文）】
 DEFAULT tommyos
