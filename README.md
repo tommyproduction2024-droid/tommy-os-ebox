@@ -56,7 +56,7 @@ sudo cp bzImage /mnt/ebox_sd/
 sudo cp rootfs.cpio.gz /mnt/ebox_sd/
 sudo cp syslinux.cfg /mnt/ebox_sd/
 
-【参考: syslinux.cfg の内容（Vortex86 究極の回避呪文）】
+【参考: syslinux.cfg の内容（Vortex86 トラブルの回避）】
 DEFAULT tommyos
 TIMEOUT 30
 PROMPT 0
@@ -144,7 +144,7 @@ sudo mount /dev/mmcblk0p1 /mnt/ebox_sd
 sudo cp bzImage /mnt/ebox_sd/
 sudo cp rootfs.cpio.gz /mnt/ebox_sd/
 sudo cp syslinux.cfg /mnt/ebox_sd/
-[Reference: Contents of syslinux.cfg (The Ultimate Vortex86 Workaround Spell)]
+[Reference: Contents of syslinux.cfg ]
 
 Plaintext
 DEFAULT tommyos
